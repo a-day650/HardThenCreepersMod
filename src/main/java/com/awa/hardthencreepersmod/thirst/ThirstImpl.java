@@ -36,7 +36,7 @@ public class ThirstImpl implements IThirst {
     public void tick(Player player) {
         if (player.isCreative()) return;
         // 简单的口渴值减少逻辑（示例）
-        if(player.tickCount % (23 * 20) == 0) {
+        if(player.tickCount % (74 * 20) == 0) {
             MinecraftForge.EVENT_BUS.post(new ThirstShakeEvent(3, 1.0f));
             addThirst(-1);
         }
