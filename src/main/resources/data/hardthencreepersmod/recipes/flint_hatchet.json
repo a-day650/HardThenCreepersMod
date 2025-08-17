@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:string" },
+    { "item": "hardthencreepersmod:sharp_flint" },
+    { "item": "minecraft:stick" }
+  ],
+  "result": {
+    "item": "hardthencreepersmod:flint_hatchet",
+    "count": 1
+  },
+  "show_notification": true
+}

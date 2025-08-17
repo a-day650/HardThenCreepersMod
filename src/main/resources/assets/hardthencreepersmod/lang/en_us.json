@@ -1,0 +1,29 @@
+{
+  "item.hardthencreepersmod.bark": "bark",
+  "item.hardthencreepersmod.sharp_flint": "sharp flint",
+  "item.hardthencreepersmod.flint_hatchet": "flint hatchet",
+  "item.hardthencreepersmod.pebble": "pebble",
+  "block.hardthencreepersmod.clay_furnace": "clay furnace",
+
+  "item_group.hardthencreepersmod.htc_tab": "HardThenCreepers 's Items",
+
+  "tooltip.quality": "Craft Quality",
+  "tooltip.quality.poor": "Poor",
+  "tooltip.quality.rough": "Rough",
+  "tooltip.quality.average": "Average",
+  "tooltip.durability_penalty": "Dura Penalty: +%d/use",
+  "tooltip.unrepairable": "Unrepairable",
+  "message.tool_break": "Your %s broke due to poor craft!",
+  "message.tool_warning": "%s is about to break!",
+  "message.hardthencreepersmod.low_thirst": "Ugh... so thirsty... maybe I should find water...",
+
+  "death.attack.hardthencreepersmod.thirst_damage": "%s died of thirst.",
+
+  "message.hardthencreepersmod.fuck_w1": "you f**k repeat that for me(awa) again?",
+  "message.hardthencreepersmod.fuck_w2": "Do that again and I'll force a stack overflow on your end.",
+  "message.hardthencreepersmod.fuck_w3": "f**k you",
+
+  "effect.hardthencreepersmod.thirst": "thirst",
+  "tooltip.hardthencreepersmod.need_fuel": "need fuel!",
+  "container.clay_furnace": "clay furnace"
+}

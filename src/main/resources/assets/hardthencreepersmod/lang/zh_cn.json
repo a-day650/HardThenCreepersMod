@@ -1,0 +1,30 @@
+{
+  "item.hardthencreepersmod.bark": "树皮",
+  "item.hardthencreepersmod.sharp_flint": "锋利的燧石",
+  "item.hardthencreepersmod.flint_hatchet": "燧石斧头",
+  "item.hardthencreepersmod.pebble": "小石子",
+  "block.hardthencreepersmod.clay_furnace": "瓦炉",
+
+  "item_group.hardthencreepersmod.htc_tab": "HardThenCreepers 的物品",
+
+  "tooltip.quality": "工艺质量",
+  "tooltip.quality.poor": "劣质",
+  "tooltip.quality.rough": "粗糙",
+  "tooltip.quality.average": "普通",
+  "tooltip.durability_penalty": "耐久惩罚: +%d/次",
+  "tooltip.unrepairable": "无法修复",
+  "tooltip.hardthencreepersmod.need_fuel": "需要燃料！",
+
+  "message.tool_break": "你的%s因工艺问题损坏！",
+  "message.tool_warning": "%s即将损坏！",
+  "message.hardthencreepersmod.low_thirst": "唔...好渴...也许我应该找点水喝...",
+  "message.hardthencreepersmod.fuck_w1": "你再说一遍！！",
+  "message.hardthencreepersmod.fuck_w2": "你再说，我就让你客户端栈溢出崩溃",
+  "message.hardthencreepersmod.fuck_w3": "去你的，别说了",
+
+  "death.attack.hardthencreepersmod.thirst_damage": "%s 因口渴而死",
+
+  "effect.hardthencreepersmod.thirst": "口渴",
+
+  "container.clay_furnace": "瓦炉"
+}

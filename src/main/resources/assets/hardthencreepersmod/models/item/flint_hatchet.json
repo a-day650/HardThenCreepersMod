@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "hardthencreepersmod:item/flint_hatchet"
+  }
+}

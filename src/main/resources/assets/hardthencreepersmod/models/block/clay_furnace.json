@@ -1,0 +1,9 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "front": "hardthencreepersmod:block/clay_furnace_front",
+    "side": "hardthencreepersmod:block/clay_furnace_side",
+    "top": "hardthencreepersmod:block/clay_furnace_top",
+    "bottom": "hardthencreepersmod:block/clay_furnace_top"
+  }
+}
