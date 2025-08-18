@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FFF",
+    "F F",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "hardthencreepersmod:clay_furnace",
+    "count": 1
+  }
+}

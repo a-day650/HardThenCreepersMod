@@ -34,6 +34,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PEBBLE.get());
 
                         output.accept(ModBlocks.CLAY_FURNACE.get());
+
+                        output.accept(ModItems.FRIED_EGG.get());
                         // 可以继续添加更多物品
                     })
                     .build());

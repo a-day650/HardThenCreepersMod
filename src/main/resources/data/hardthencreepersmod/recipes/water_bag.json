@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "tag": "hardthencreepersmod:string_for_crafting" },
+    { "tag": "hardthencreepersmod:leather" }
+  ],
+  "result": {
+    "item": "hardthencreepersmod:water_bag",
+    "count": 1
+  },
+  "show_notification": true
+}

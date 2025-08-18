@@ -2,6 +2,7 @@ package com.awa.hardthencreepersmod.item;
 
 import com.awa.hardthencreepersmod.HardThenCreepersMod;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.ForgeTier;
@@ -31,6 +32,14 @@ public class ModItems {
                     .rarity(Rarity.COMMON)
                     .fireResistant()
             ));
+
+    public static final RegistryObject<Item> FRIED_EGG = ITEMS.register("fried_egg",
+            () -> new Item(new Item.Properties().food(
+                    new FoodProperties.Builder()
+                            .nutrition(4) // 恢复4点饥饿值
+                            .saturationMod(0.3f) // 饱和度修正值
+                            .build()
+            )));
 
     public static final Tier FLINT_HATCHET_TIER = new ForgeTier(
             1, // 挖掘等级（1 = 石头级）

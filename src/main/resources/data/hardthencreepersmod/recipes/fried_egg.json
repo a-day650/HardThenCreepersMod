@@ -1,0 +1,11 @@
+{
+  "type": "hardthencreepersmod:clay_smelting",
+  "ingredient": {
+    "item": "minecraft:egg"
+  },
+  "result": {
+    "item":"hardthencreepersmod:fried_egg"
+  },
+  "experience": 0.7,
+  "cookingtime": 180
+}
