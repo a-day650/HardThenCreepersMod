@@ -3,7 +3,12 @@
   "item.hardthencreepersmod.sharp_flint": "sharp flint",
   "item.hardthencreepersmod.flint_hatchet": "flint hatchet",
   "item.hardthencreepersmod.pebble": "pebble",
-  "item.hardthencreepersmod.plant_fiber": "fiber",
+  "item.hardthencreepersmod.plant_fiber": "plant_fiber",
+  "item.hardthencreepersmod.water_bag": "水袋",
+  "item.hardthencreepersmod.water_bag.clean": "Clean Water",
+  "item.hardthencreepersmod.water_bag.dirty": "Dirty Water",
+  "item.hardthencreepersmod.water_bag.status": "%s: %d/%d",
+
   "block.hardthencreepersmod.clay_furnace": "clay furnace",
 
   "item_group.hardthencreepersmod.htc_tab": "HardThenCreepers 's Items",

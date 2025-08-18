@@ -3,6 +3,12 @@
   "item.hardthencreepersmod.sharp_flint": "锋利的燧石",
   "item.hardthencreepersmod.flint_hatchet": "燧石斧头",
   "item.hardthencreepersmod.pebble": "小石子",
+  "item.hardthencreepersmod.water_bag": "水袋",
+  "item.hardthencreepersmod.plant_fiber": "植物纤维",
+  "item.hardthencreepersmod.water_bag.clean": "纯净水",
+  "item.hardthencreepersmod.water_bag.dirty": "脏水",
+  "item.hardthencreepersmod.water_bag.status": "%s：%d/%d",
+
   "block.hardthencreepersmod.clay_furnace": "瓦炉",
 
   "item_group.hardthencreepersmod.htc_tab": "HardThenCreepers 的物品",

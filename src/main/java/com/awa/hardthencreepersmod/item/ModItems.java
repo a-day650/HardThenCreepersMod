@@ -26,6 +26,12 @@ public class ModItems {
     public static final RegistryObject<Item> PLANT_FIBER = ITEMS.register("plant_fiber",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> WATER_BAG = ITEMS.register("water_bag",
+            () -> new WaterBagItem(new WaterBagItem.Properties().stacksTo(1)
+                    .rarity(Rarity.COMMON)
+                    .fireResistant()
+            ));
+
     public static final Tier FLINT_HATCHET_TIER = new ForgeTier(
             1, // 挖掘等级（1 = 石头级）
             50, // 耐久度

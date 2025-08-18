@@ -14,7 +14,6 @@ public class ModRecipeSerializers {
 
     public static final RegistryObject<RecipeSerializer<ClaySmeltingRecipe>> CLAY_SMELTING =
             SERIALIZERS.register("clay_smelting", () -> new ClaySmeltingRecipeSerializer(200));
-
     // 在Mod主类中注册
     public static void register(IEventBus eventBus) {
         SERIALIZERS.register(eventBus);

@@ -5,7 +5,6 @@ import com.awa.hardthencreepersmod.init.ModMenuTypes;
 import com.awa.hardthencreepersmod.recipe.ModRecipeBookTypes;
 import com.awa.hardthencreepersmod.recipe.ModRecipeTypes;
 import com.google.common.collect.ImmutableList;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.RecipeBookCategories;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.world.item.ItemStack;

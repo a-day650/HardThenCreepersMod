@@ -2,6 +2,8 @@
 package com.awa.hardthencreepersmod.item;
 
 import com.awa.hardthencreepersmod.HardThenCreepersMod;
+import com.awa.hardthencreepersmod.block.ModBlocks;
+import com.awa.hardthencreepersmod.item.ModItems;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -26,9 +28,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PLANT_FIBER.get());
 
                         output.accept(ModItems.FLINT_HATCHET.get());
+                        output.accept(ModItems.WATER_BAG.get());
                         output.accept(ModItems.SHARP_FLINT.get());
 
                         output.accept(ModItems.PEBBLE.get());
+
+                        output.accept(ModBlocks.CLAY_FURNACE.get());
                         // 可以继续添加更多物品
                     })
                     .build());

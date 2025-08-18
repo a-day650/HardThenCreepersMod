@@ -2,6 +2,7 @@ package com.awa.hardthencreepersmod.event;
 
 import com.awa.hardthencreepersmod.HardThenCreepersMod;
 import com.awa.hardthencreepersmod.client.screen.CrashScreen;
+
 import com.awa.hardthencreepersmod.item.ModItems;
 import com.awa.hardthencreepersmod.util.ModTags;
 import net.minecraft.ChatFormatting;

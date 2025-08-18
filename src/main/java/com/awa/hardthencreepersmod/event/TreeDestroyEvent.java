@@ -1,6 +1,7 @@
 package com.awa.hardthencreepersmod.event;
 
 import com.awa.hardthencreepersmod.HardThenCreepersMod;
+
 import com.awa.hardthencreepersmod.item.ModItems;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.tags.BlockTags;

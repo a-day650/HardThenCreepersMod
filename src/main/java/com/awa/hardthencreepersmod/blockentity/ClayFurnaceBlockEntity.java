@@ -11,7 +11,6 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.RecipeType;
-import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 
@@ -40,10 +39,6 @@ public class ClayFurnaceBlockEntity extends AlterAbstractFurnaceBlockEntity {
 
     @Override
     protected int getBurnDuration(ItemStack fuel) {
-        // 自定义燃料燃烧时间
-        if (fuel.is(Items.DRIED_KELP_BLOCK)) {
-            return 4000; // 海带块燃烧4000ticks(200秒)
-        }
         return super.getBurnDuration(fuel);
     }
 
@@ -69,9 +64,6 @@ public class ClayFurnaceBlockEntity extends AlterAbstractFurnaceBlockEntity {
         if (slot == 1) return AbstractFurnaceBlockEntity.isFuel(stack); // 燃料槽只能放燃料
         return true; // 输入槽可以放任何物品
     }
-
-
-
     public RecipeType<?> getRecipeType() {
         return ModRecipeTypes.CLAY_SMELTING.get();
     }
