@@ -34,7 +34,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SHARP_FLINT.get());
                         output.accept(ModItems.PEBBLE.get());
                         output.accept(ModItems.CLOTH.get());
+                        output.accept(ModItems.RAW_BRICK.get());
 
+                        output.accept(ModBlocks.WET_RAW_BRICK.get());
                         output.accept(ModBlocks.CLAY_FURNACE.get());
                         output.accept(ModBlocks.SLEEPING_BAG.get());
 
