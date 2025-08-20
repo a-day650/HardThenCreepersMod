@@ -52,7 +52,7 @@ public class TreeDestroyEvent {
         Player player = event.getPlayer();
         ItemStack tool = player.getMainHandItem();
         CompoundTag tag = tool.getTag();
-        int quality = tag != null && tag.contains("CraftLevel") ? tag.getInt("CraftLevel") : 15;
+        int quality = tag != null && tag.contains("CraftLevel") ? tag.getInt("CraftLevel") : 14;
         applyDurabilityPenalty(player, tool, quality);
     }
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "tag": "hardthencreepersmod:string_for_crafting" },
+    { "tag": "hardthencreepersmod:string_for_crafting" },
+    { "tag": "hardthencreepersmod:string_for_crafting" },
+    { "tag": "hardthencreepersmod:string_for_crafting" }
+  ],
+  "result": {
+    "item": "hardthencreepersmod:cloth"
+  },
+  "show_notification": true
+}

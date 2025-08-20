@@ -9,9 +9,9 @@ import net.minecraft.client.RecipeBookCategories;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -83,7 +83,4 @@ public class ClientProxy {
             MenuScreens.register(ModMenuTypes.CLAY_FURNACE_MENU.get(), ClayFurnaceScreen::new);
         });
     }
-
-    // 在 onRegisterRecipeBookCategories 中添加燃料分类
-
 }

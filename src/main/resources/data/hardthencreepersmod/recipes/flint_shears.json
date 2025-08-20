@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "hardthencreepersmod:sharp_flint" },
+    { "item": "hardthencreepersmod:sharp_flint" },
+    { "tag": "hardthencreepersmod:string_for_crafting" }
+  ],
+  "result": {
+    "item": "hardthencreepersmod:flint_shears"
+  },
+  "show_notification": true
+}

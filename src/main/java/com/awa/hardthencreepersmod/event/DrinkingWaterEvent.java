@@ -16,7 +16,7 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(modid = HardThenCreepersMod.MODID)
 public class DrinkingWaterEvent {
-    private static final int THIRST_DURATION = 20 * 180; // 3分钟
+    private static final int THIRST_DURATION = 20 * 40;
     private static final int WATER_RESTORE = 5;
 
 

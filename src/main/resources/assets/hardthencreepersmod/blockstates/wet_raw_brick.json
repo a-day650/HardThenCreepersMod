@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north,growth_stage=0": { "model": "hardthencreepersmod:block/wet_raw_brick_stage0" },
+    "facing=east,growth_stage=0": { "model": "hardthencreepersmod:block/wet_raw_brick_stage0", "y": 90 },
+    "facing=south,growth_stage=0": { "model": "hardthencreepersmod:block/wet_raw_brick_stage0", "y": 180 },
+    "facing=west,growth_stage=0": { "model": "hardthencreepersmod:block/wet_raw_brick_stage0", "y": 270 },
+
+    "facing=north,growth_stage=1": { "model": "hardthencreepersmod:block/wet_raw_brick_stage1" },
+    "facing=east,growth_stage=1": { "model": "hardthencreepersmod:block/wet_raw_brick_stage1", "y": 90 },
+    "facing=south,growth_stage=1": { "model": "hardthencreepersmod:block/wet_raw_brick_stage1", "y": 180 },
+    "facing=west,growth_stage=1": { "model": "hardthencreepersmod:block/wet_raw_brick_stage1", "y": 270 },
+
+    "facing=north,growth_stage=2": { "model": "hardthencreepersmod:block/wet_raw_brick_stage2" },
+    "facing=east,growth_stage=2": { "model": "hardthencreepersmod:block/wet_raw_brick_stage2", "y": 90 },
+    "facing=south,growth_stage=2": { "model": "hardthencreepersmod:block/wet_raw_brick_stage2", "y": 180 },
+    "facing=west,growth_stage=2": { "model": "hardthencreepersmod:block/wet_raw_brick_stage2", "y": 270 },
+
+    "facing=north,growth_stage=3": { "model": "hardthencreepersmod:block/wet_raw_brick_stage3" },
+    "facing=east,growth_stage=3": { "model": "hardthencreepersmod:block/wet_raw_brick_stage3", "y": 90 },
+    "facing=south,growth_stage=3": { "model": "hardthencreepersmod:block/wet_raw_brick_stage3", "y": 180 },
+    "facing=west,growth_stage=3": { "model": "hardthencreepersmod:block/wet_raw_brick_stage3", "y": 270 }
+  }
+}

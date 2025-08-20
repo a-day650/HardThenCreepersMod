@@ -2,12 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     { "tag": "hardthencreepersmod:stripped_log" },
-    { "tag": "minecraft:axes" },
-    { "tag": "hardthencreepersmod:shears" }
+    { "tag": "minecraft:axes" }
   ],
   "result": {
-    "item": "minecraft:crafting_table",
-    "count": 1
+    "item": "minecraft:stick",
+    "count": 4
   },
   "show_notification": true
 }

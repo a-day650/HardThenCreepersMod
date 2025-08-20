@@ -4,13 +4,18 @@
   "item.hardthencreepersmod.flint_hatchet": "flint hatchet",
   "item.hardthencreepersmod.pebble": "pebble",
   "item.hardthencreepersmod.plant_fiber": "plant_fiber",
+  "item.hardthencreepersmod.cloth": "cloth",
+  "item.hardthencreepersmod.raw_brick": "raw brick",
   "item.hardthencreepersmod.water_bag": "water bag",
   "item.hardthencreepersmod.fried_egg": "fried egg",
+  "item.hardthencreepersmod.flint_shears": "flint shears",
   "item.hardthencreepersmod.water_bag.clean": "Clean Water",
   "item.hardthencreepersmod.water_bag.dirty": "Dirty Water",
   "item.hardthencreepersmod.water_bag.status": "%s: %d/%d",
 
   "block.hardthencreepersmod.clay_furnace": "clay furnace",
+  "block.hardthencreepersmod.wet_raw_brick": "wet raw brick",
+  "block.hardthencreepersmod.sleeping_bag": "sleeping bag",
 
   "item_group.hardthencreepersmod.htc_tab": "HardThenCreepers 's Items",
 

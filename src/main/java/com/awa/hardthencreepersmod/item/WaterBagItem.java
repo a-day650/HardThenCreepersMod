@@ -112,7 +112,7 @@ public class WaterBagItem extends Item {
                 player.getCapability(ThirstProvider.THIRST_CAP).ifPresent(thirst -> {
                     thirst.addThirst(3);
                 });
-                player.addEffect(new MobEffectInstance(ModEffects.THIRST.get(), 50*20, 1));
+                player.addEffect(new MobEffectInstance(ModEffects.THIRST.get(), 40*20, 0));
             }
 
             // 减少水量（每次消耗250单位）

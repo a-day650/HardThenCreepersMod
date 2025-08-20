@@ -5,12 +5,17 @@
   "item.hardthencreepersmod.pebble": "小石子",
   "item.hardthencreepersmod.water_bag": "水袋",
   "item.hardthencreepersmod.fried_egg": "煎蛋",
+  "item.hardthencreepersmod.cloth": "布料",
+  "item.hardthencreepersmod.raw_brick": "生砖",
+  "item.hardthencreepersmod.flint_shears": "燧石剪刀",
   "item.hardthencreepersmod.plant_fiber": "植物纤维",
   "item.hardthencreepersmod.water_bag.clean": "纯净水",
   "item.hardthencreepersmod.water_bag.dirty": "脏水",
   "item.hardthencreepersmod.water_bag.status": "%s：%d/%d",
 
   "block.hardthencreepersmod.clay_furnace": "瓦炉",
+  "block.hardthencreepersmod.wet_raw_brick": "湿生砖",
+  "block.hardthencreepersmod.sleeping_bag": "睡袋",
 
   "item_group.hardthencreepersmod.htc_tab": "HardThenCreepers 的物品",
 

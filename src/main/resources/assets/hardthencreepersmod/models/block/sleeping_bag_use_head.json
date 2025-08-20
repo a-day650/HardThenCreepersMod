@@ -1,0 +1,21 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "hardthencreepersmod:block/sleeping_bag_head_use",
+    "foot":"hardthencreepersmod:block/sleeping_bag_foot"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 4, 16],
+      "faces": {
+        "down": { "texture": "#foot", "cullface": "down" },
+        "up": { "texture": "#particle", "cullface": "up" },
+        "north": { "texture": "#foot", "cullface": "north" },
+        "south": { "texture": "#foot", "cullface": "south" },
+        "west": { "texture": "#foot", "cullface": "west" },
+        "east": { "texture": "#foot", "cullface": "east" }
+      }
+    }
+  ]
+}

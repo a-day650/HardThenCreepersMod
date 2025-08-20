@@ -1,12 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    { "tag": "hardthencreepersmod:pebble_items" },
-    { "item": "minecraft:flint" }
+    { "item": "minecraft:flint" },
+    { "tag": "hardthencreepersmod:pebble_items" }
   ],
   "result": {
-    "item": "hardthencreepersmod:sharp_flint",
-    "count": 1
+    "item": "hardthencreepersmod:sharp_flint"
   },
   "show_notification": true
 }

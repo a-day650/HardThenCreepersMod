@@ -1,6 +1,7 @@
 package com.awa.hardthencreepersmod.item;
 
 import com.awa.hardthencreepersmod.HardThenCreepersMod;
+import it.unimi.dsi.fastutil.BigArrays;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
@@ -27,19 +28,28 @@ public class ModItems {
     public static final RegistryObject<Item> PLANT_FIBER = ITEMS.register("plant_fiber",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> CLOTH = ITEMS.register("cloth",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> WATER_BAG = ITEMS.register("water_bag",
             () -> new WaterBagItem(new WaterBagItem.Properties().stacksTo(1)
                     .rarity(Rarity.COMMON)
                     .fireResistant()
             ));
 
-    public static final RegistryObject<Item> FRIED_EGG = ITEMS.register("fried_egg",
+    public static final RegistryObject<Item> FRIED_EGG_FOOD = ITEMS.register("fried_egg",
             () -> new Item(new Item.Properties().food(
                     new FoodProperties.Builder()
                             .nutrition(4) // 恢复4点饥饿值
                             .saturationMod(0.3f) // 饱和度修正值
                             .build()
             )));
+
+    public static final RegistryObject<Item> FLINT_SHEARS = ITEMS.register("flint_shears",
+            () -> new ShearsItem(new Item.Properties()
+                    .durability(40)
+                    .rarity(Rarity.COMMON)
+            ));
 
     public static final Tier FLINT_HATCHET_TIER = new ForgeTier(
             1, // 挖掘等级（1 = 石头级）
@@ -56,5 +66,8 @@ public class ModItems {
             "flint_hatchet",
             () -> new AxeItem(FLINT_HATCHET_TIER, 5.0f, -3.0f,new Item.Properties().durability(15).rarity(Rarity.COMMON)){
             });
+    public static final RegistryObject<Item> RAW_BRICK = ITEMS.register("raw_brick",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus){ITEMS.register(eventBus);}
 }

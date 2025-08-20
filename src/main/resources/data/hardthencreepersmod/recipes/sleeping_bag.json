@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "hardthencreepersmod:cloth" },
+    { "item": "hardthencreepersmod:cloth" },
+    { "tag": "hardthencreepersmod:string_for_crafting" },
+    { "tag": "hardthencreepersmod:string_for_crafting" }
+  ],
+  "result": {
+    "item": "hardthencreepersmod:sleeping_bag"
+  },
+  "show_notification": true
+}

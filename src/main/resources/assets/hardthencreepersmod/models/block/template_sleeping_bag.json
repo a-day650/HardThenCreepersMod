@@ -1,0 +1,33 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "foot": "hardthencreepersmod:block/sleeping_bag_head",
+    "head": "hardthencreepersmod:block/sleeping_bag_foot"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 4, 16],
+      "faces": {
+        "down": { "texture": "#head", "cullface": "down", "uv": [0, 0, 16, 16] },
+        "up": { "texture": "#foot", "cullface": "up", "uv": [0, 0, 16, 16] },
+        "north": { "texture": "#foot", "cullface": "north", "uv": [0, 12, 16, 16] },
+        "south": { "texture": "#foot", "cullface": "south", "uv": [0, 12, 16, 16] },
+        "west": { "texture": "#foot", "cullface": "west", "uv": [0, 12, 16, 16] },
+        "east": { "texture": "#foot", "cullface": "east", "uv": [0, 12, 16, 16] }
+      }
+    },
+    {
+      "from": [0, 0, -16],
+      "to": [16, 4, 0],
+      "faces": {
+        "down": { "texture": "#foot", "cullface": "down", "uv": [0, 0, 16, 16] },
+        "up": { "texture": "#head", "cullface": "up", "uv": [0, 0, 16, 16] },
+        "north": { "texture": "#foot", "cullface": "north", "uv": [0, 12, 16, 16] },
+        "south": { "texture": "#foot", "cullface": "south", "uv": [0, 12, 16, 16] },
+        "west": { "texture": "#foot", "cullface": "west", "uv": [0, 12, 16, 16] },
+        "east": { "texture": "#foot", "cullface": "east", "uv": [0, 12, 16, 16] }
+      }
+    }
+  ]
+}
