@@ -1,0 +1,35 @@
+[089月2025 20:55:46.753] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\86138\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.8, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, hardthencreepersmod, --all, --output, D:\awa's mod\forge\HardThenCreepersMod\src\generated\resources, --existing, D:\awa's mod\forge\HardThenCreepersMod\src\main\resources]
+[089月2025 20:55:46.776] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[089月2025 20:55:46.929] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[089月2025 20:55:46.981] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/86138/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[089月2025 20:55:47.357] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\86138\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.8\721e2d976494c8275bd81b3404e7dd109b7558c\javafmllanguage-1.20.1-47.4.8.jar is missing mods.toml file
+[089月2025 20:55:47.358] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\86138\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.8\73022064045853db9acea4a61e8c76aad4df52d6\lowcodelanguage-1.20.1-47.4.8.jar is missing mods.toml file
+[089月2025 20:55:47.361] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\86138\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.8\f6f8fcedd2034d8aeb4c696bae232555fbc99bd3\mclanguage-1.20.1-47.4.8.jar is missing mods.toml file
+[089月2025 20:55:47.364] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\86138\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.8\21a451a2c815d519fd534d90eddbd8fd0c44d36e\fmlcore-1.20.1-47.4.8.jar is missing mods.toml file
+[089月2025 20:55:47.522] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[089月2025 20:55:49.173] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\86138\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, hardthencreepersmod, --all, --output, D:\awa's mod\forge\HardThenCreepersMod\src\generated\resources, --existing, D:\awa's mod\forge\HardThenCreepersMod\src\main\resources]
+[089月2025 20:55:50.020] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [hardthencreepersmod]
+[089月2025 20:55:54.941] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.8, for MC 1.20.1 with MCP 20230612.114412
+[089月2025 20:55:54.944] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.8 Initialized
+[089月2025 20:55:55.865] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/86138/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.8_mapped_official_1.20.1/forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[089月2025 20:55:55.865] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/86138/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.8_mapped_official_1.20.1/forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[089月2025 20:55:56.271] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[089月2025 20:55:56.276] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 3 ms
+[089月2025 20:55:56.276] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[089月2025 20:55:56.331] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 55 ms
+[089月2025 20:55:56.331] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Advancements
+[089月2025 20:55:56.388] [main/INFO] [net.minecraft.data.DataGenerator/]: Advancements finished after 56 ms
+[089月2025 20:55:56.388] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: hardthencreepersmod
+[089月2025 20:55:56.501] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: hardthencreepersmod finished after 112 ms
+[089月2025 20:55:56.501] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: hardthencreepersmod
+[089月2025 20:55:56.514] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: hardthencreepersmod finished after 12 ms
+[089月2025 20:55:56.514] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us
+[089月2025 20:55:56.516] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us finished after 1 ms
+[089月2025 20:55:56.516] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: zh_cn
+[089月2025 20:55:56.518] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: zh_cn finished after 1 ms
+[089月2025 20:55:56.518] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id hardthencreepersmod
+[089月2025 20:55:56.526] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id hardthencreepersmod finished after 9 ms
+[089月2025 20:55:56.526] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id hardthencreepersmod
+[089月2025 20:55:56.527] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id hardthencreepersmod finished after 0 ms
+[089月2025 20:55:56.527] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 256 ms
+[089月2025 20:55:56.542] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 40, old count: 0, new count: 40, removed stale: 1, written: 39

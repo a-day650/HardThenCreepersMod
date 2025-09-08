@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "stage=0": {
+      "model": "hardthencreepersmod:block/destroyed_ore_block_stage0"
+    },
+    "stage=1": {
+      "model": "hardthencreepersmod:block/destroyed_ore_block_stage1"
+    },
+    "stage=2": {
+      "model": "hardthencreepersmod:block/destroyed_ore_block_stage2"
+    }
+  }
+}
