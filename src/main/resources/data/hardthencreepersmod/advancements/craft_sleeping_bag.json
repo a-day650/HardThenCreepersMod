@@ -1,0 +1,32 @@
+{
+  "parent": "hardthencreepersmod:htc_mod_root",
+  "criteria": {
+    "craft_sleeping_bag": {
+      "conditions": {
+        "recipe_id": "hardthencreepersmod:sleeping_bag"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.hardthencreepersmod.craft_sleeping_bag.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "hardthencreepersmod:sleeping_bag"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.hardthencreepersmod.craft_sleeping_bag.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_sleeping_bag"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

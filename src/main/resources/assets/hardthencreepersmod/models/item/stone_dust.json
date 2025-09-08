@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hardthencreepersmod:item/stone_dust"
+  }
+}

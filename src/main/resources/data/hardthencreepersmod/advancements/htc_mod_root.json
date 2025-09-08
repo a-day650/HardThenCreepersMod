@@ -1,21 +1,31 @@
 {
-  "display": {
-    "icon": {
-      "item": "hardthencreepersmod:flint_hatchet",
-      "nbt": "{CustomModelData:1}"
-    },
-    "title": "HardThenCreepers",
-    "description": "“新的困难，新的挑战”",
-    "background": "minecraft:textures/block/stone.png",
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": false,
-    "hidden": false
-  },
   "criteria": {
-    "get_hatchet": {
+    "htc_mod_root": {
+      "conditions": {},
       "trigger": "minecraft:tick"
     }
   },
-  "requirements": [["get_hatchet"]]
+  "display": {
+    "announce_to_chat": false,
+    "background": "hardthencreepersmod:textures/block/stone.png",
+    "description": {
+      "translate": "advancements.hardthencreepersmod.htc_mod_root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "hardthencreepersmod:flint_hatchet",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.hardthencreepersmod.htc_mod_root.title"
+    }
+  },
+  "requirements": [
+    [
+      "htc_mod_root"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

@@ -1,0 +1,32 @@
+{
+  "parent": "hardthencreepersmod:craft_flint_hatchet",
+  "criteria": {
+    "craft_clay_furnace": {
+      "conditions": {
+        "recipe_id": "hardthencreepersmod:clay_furnace"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.hardthencreepersmod.craft_clay_furnace.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "hardthencreepersmod:clay_furnace"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.hardthencreepersmod.craft_clay_furnace.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_clay_furnace"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

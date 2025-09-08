@@ -1,0 +1,33 @@
+{
+  "parent": "hardthencreepersmod:htc_mod_root",
+  "criteria": {
+    "craft_flint_hatchet": {
+      "conditions": {
+        "recipe_id": "hardthencreepersmod:flint_hatchet"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.hardthencreepersmod.craft_flint_hatchet.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "hardthencreepersmod:flint_hatchet",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.hardthencreepersmod.craft_flint_hatchet.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_flint_hatchet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

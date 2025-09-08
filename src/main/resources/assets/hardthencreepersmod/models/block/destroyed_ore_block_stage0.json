@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "hardthencreepersmod:block/destroyed_ore_block_stage0"
+  }
+}
